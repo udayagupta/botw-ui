@@ -1,0 +1,56 @@
+{
+  "main_quests": {
+    "quest_the_isloated_plateau": {
+      "name": "The Isloated Plateau",
+      "giver": "Old Man",
+      "location": "Great Plateau",
+      "prerequisite_id": "quest_follow_sheikah_slate",
+      "rewards": [
+        "item_paraglider",
+        "quest_seek_out_impa",
+        "quest_destroy_ganon"
+      ],
+      "steps": [
+        {
+          "step_id": 1,
+          "description": "After your descent from the tower, the old man told you that the kingdom of Hyrule was destroyed 100 years ago by Calamity Ganon.\n\nYou heard a voice coming from Hyrule Castle, but you cannot reach it unless you leave the plateau using the paraglider.\n\nThe old man said that he will give you the paraglider in exchange for the treasure that lies within a hidden location somewhere..."
+        },
+        {
+          "step_id": 2,
+          "description": "The old man explained that there are a total of four shrines on the plateau. He said that he will give you the paraglider once you have acquired the Spirit Orb from all of the shrines. He told you to survey the plateau from the top of the tower to find the remaining shrines. He also pointed out that you can use your Sheikah Slate if you need to travel quickly."
+        },
+        {
+          "step_id": 3,
+          "description": "After you acquired the Spirit Orbs from the shrines, the old man told you that he'll be waiting in the place centered amid the four shrines, before mysteriously disappearing..."
+        },
+        {
+          "step_id": "complete",
+          "description": "The old man you were talking to informed you that he was King Rhoam. The voice you heard coming from Hyrule Castle was Princess Zelda.\n\nThe princess is trapped inside the castle, which is shrouded in Malice, fighting against Ganon...\n\nThe king's ghost left you with one last directive: rescue Princess Zelda and defeat Ganon. He gave you the paraglider now that his duty is done."
+        }
+      ]
+    },
+    "quest_seek_out_impa": {
+        "name": "Seek Out Impa",
+        "giver": "King Rhoam",
+        "location": "Kakariko Village",
+        "prerequisite_id": "quest_the_isloated_plateau",
+        "rewards": [
+            "quest_locked_mementos", 
+            "quest_divine_beast_vah_rudania",
+            "quest_divine_beast_vah_medoh",
+            "quest_divine_beast_vah_ruta",
+            "quest_divine_beast_vah_naboris"
+        ],
+        "steps": [
+            {
+                "step_id": 1,
+                "description": "You were tasked with going to Kakariko Village to speak with Impa, who will give you more details on your quest.\n\nDescend from the Great Plateau and head east beyond the Dueling Peaks, then follow the road to the north. The blinking dot on your Sheikah Slate's map will guide the way."
+            },
+            {
+                "step_id": "complete",
+                "description": "Impa, the chief of Kakariko Village, relayed the tale of what happened 100 years ago, as well as the mission entrusted to you by Princess Zelda to free the four Divine Beasts.\n\nBut first, it seems that your Sheikah Slate is incomplete. Having it fixed at the Hateno Ancient Tech Lab in Hateno Village may provide more clues to your mission."
+            }
+        ]
+    }
+  }
+}

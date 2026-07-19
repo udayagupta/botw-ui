@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --light-bg: rgba(0, 0, 0, 60%);
+  --dark-bg: rgba(0, 0, 0, 80%);
+  --text-color: rgba(226, 222, 211, 100%);
+  --grey-bg: rgba(102, 100, 93, 100%);
+}
+
+body {
+  background-color: var(--light-bg);
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: var(--text-color);
+}
+
+
+header {
+  background-color: var(--dark-bg);
+  padding: 1.2rem;
+  padding-inline: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--grey-bg);
+}
+
+.rupees {
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
