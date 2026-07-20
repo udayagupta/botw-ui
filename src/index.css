@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --light-bg: rgba(0, 0, 0, 60%);
-  --dark-bg: rgba(0, 0, 0, 80%);
+  --light-bg: rgba(0, 0, 0, 0.398);
+  --dark-bg: rgba(0, 0, 0, 0.611);
   --text-color: rgba(226, 222, 211, 100%);
   --grey-bg: rgba(102, 100, 93, 100%);
 }
@@ -14,15 +14,18 @@ body {
   color: var(--text-color);
 }
 
+.main-wrapper {
+  background: url(./bg-image.jpg);
+}
+
 
 header {
   background-color: var(--dark-bg);
-  padding: 1.2rem;
+  padding-block: 1.75rem;
   padding-inline: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid var(--grey-bg);
 }
 
 .rupees {

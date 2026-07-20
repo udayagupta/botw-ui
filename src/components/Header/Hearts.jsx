@@ -10,11 +10,11 @@ const Hearts = ({ currentHealth, maxHearts }) => {
 
   return (
     <div>
-      <ul className="grid grid-cols-10 w-fit w-max row-gap-[1px] items-center ">
+      <ul className="grid grid-cols-15 w-fit w-max row-gap-[1px] items-center ">
         {heartsArray.map((amount, index) => {
           return (amount !== null && (
             <li key={index} className="m-[1px]">
-              <HeartIcon amount={amount} size={18}/>
+              <HeartIcon amount={amount}/>
             </li>
           ))
         })}
